@@ -1,0 +1,48 @@
+.gridcontainer{
+    display: grid;
+    gap: 10px;
+    grid-template:
+    "header" 100px
+    "main" 600px
+    "footer" 150px;
+    justify-content: center;
+    
+
+    }
+header{
+    background-color:#deb887 ;
+    font-size: 20px;
+    font-family: sacramento;
+    text-align: center;
+    
+    
+}
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    min-height: 100%;
+    margin: 0;
+    background-image: url(./Imagenes/vecteezy_gingham-pattern-seamless-plaid-repeat-vector-in-brown-and_.jpg);
+    background-size: 50%;
+    background-repeat: repeat;
+    
+}
+article{
+    padding: 20px;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #deb887;
+}
+.footer h4{
+    margin-top: 50px;
+    text-align: center;
+    font-family: sacramento;
+
+}
+#formulario { color: blue;
+    margin-top: 30px;
+    align-content: center;
+}
